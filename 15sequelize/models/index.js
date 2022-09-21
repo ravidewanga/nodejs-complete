@@ -24,4 +24,4 @@ try {
   //db.sequelize.sync({ alter: true }); 
   db.sequelize.sync(); 
 
-  module.exports = sequelize;
+  module.exports = db;
